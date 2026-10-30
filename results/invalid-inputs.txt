@@ -1,0 +1,18 @@
+3-ger/ger [0, 1, 1]: exit_code=1
+Usage: /content/akt26_gpu_dev/3-ger/ger [M > 0] [N > 0] [repeats > 0]
+
+3-ger/ger [1, 0, 1]: exit_code=1
+Usage: /content/akt26_gpu_dev/3-ger/ger [M > 0] [N > 0] [repeats > 0]
+
+3-ger/ger [1, 1, 0]: exit_code=1
+Usage: /content/akt26_gpu_dev/3-ger/ger [M > 0] [N > 0] [repeats > 0]
+
+4-gemm/gemm [0, 1]: exit_code=1
+Usage: /content/akt26_gpu_dev/4-gemm/gemm matrix_size(1..32) batch_size
+
+4-gemm/gemm [33, 1]: exit_code=1
+Usage: /content/akt26_gpu_dev/4-gemm/gemm matrix_size(1..32) batch_size
+
+4-gemm/gemm [1, 0]: exit_code=1
+Usage: /content/akt26_gpu_dev/4-gemm/gemm matrix_size(1..32) batch_size
+

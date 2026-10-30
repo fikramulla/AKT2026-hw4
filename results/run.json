@@ -1,0 +1,11 @@
+{
+  "team": "Sayf AI Ciao",
+  "team_id": 1142,
+  "repository": "https://github.com/mbzuaiciao/akt26_gpu_dev.git",
+  "requested_revision": "session-4-assignments",
+  "commit": "a3a23793bd556bee07b794c2939a965872c67456",
+  "sm": "75",
+  "cuda_directory": "/usr/local/cuda-13.0",
+  "nvcc_flags": "-O3 -std=c++11 -lineinfo",
+  "platform": "Google Colab"
+}

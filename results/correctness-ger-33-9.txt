@@ -1,0 +1,17 @@
+$ /content/akt26_gpu_dev/3-ger/ger 33 9 10
+GPU: Tesla T4 (compute capability 7.5)
+CUDA compiler: 13.0.88, runtime: 13000, driver API: 13000
+Matrix: 33 x 9, alpha = 1.50, repeats = 10
+Matrix storage: column-major
+
+Launch: grid=(2,2,1), block=(32,8,1), shared=0 bytes
+cuBLAS version: 130101
+Implementation          Time (us)      GFLOP/s           Error Norm
+--------------------------------------------------------------------
+Custom kernel               3.082        0.193         3.442800e-08
+cuBLAS SGER                 3.306        0.180         3.442800e-08
+
+TEST PASS
+Speedup (cuBLAS time / custom time): 1.073x
+
+exit_code=0
