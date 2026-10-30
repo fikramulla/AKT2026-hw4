@@ -1,0 +1,5 @@
+$ git checkout session-4-assignments
+Switched to a new branch 'session-4-assignments'
+branch 'session-4-assignments' set up to track 'origin/session-4-assignments'.
+
+exit_code=0

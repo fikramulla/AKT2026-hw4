@@ -1,0 +1,4 @@
+$ make sm=75 CUDADIR=/usr/local/cuda-13.0
+nvcc -O3 -std=c++11 -lineinfo -gencode arch=compute_75,code=sm_75 -gencode arch=compute_75,code=compute_75 gemm.cu -o gemm -L/usr/local/cuda-13.0/lib64 -lcublas
+
+exit_code=0

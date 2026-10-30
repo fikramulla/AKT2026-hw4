@@ -1,0 +1,4 @@
+$ nvidia-smi --query-gpu=compute_cap --format=csv,noheader
+7.5
+
+exit_code=0

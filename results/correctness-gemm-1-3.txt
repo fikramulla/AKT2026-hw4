@@ -1,0 +1,17 @@
+$ /content/akt26_gpu_dev/4-gemm/gemm 1 3
+GPU: Tesla T4 (compute capability 7.5)
+CUDA compiler: 13.0.88, runtime: 13000, driver API: 13000
+Matrix size: 1 x 1, batch size: 3
+FP32, column-major matrices, repeats: 100
+
+Launch: grid=(3,1,1), block=(32,8,1), shared=8192 bytes
+cuBLAS version: 130101
+Implementation              Time (us)      GFLOP/s  Max batch fwd error
+-----------------------------------------------------------------------
+Custom kernel                   2.923        0.002         0.000000e+00
+cuBLAS Strided Batched          7.332        0.001         0.000000e+00
+
+TEST PASS
+Speedup (cuBLAS time / custom time): 2.509x
+
+exit_code=0

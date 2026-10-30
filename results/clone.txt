@@ -1,0 +1,4 @@
+$ git clone https://github.com/mbzuaiciao/akt26_gpu_dev.git /content/akt26_gpu_dev
+Cloning into '/content/akt26_gpu_dev'...
+
+exit_code=0

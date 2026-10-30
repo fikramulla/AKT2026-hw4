@@ -1,0 +1,4 @@
+$ make clean
+rm -rf ger
+
+exit_code=0
